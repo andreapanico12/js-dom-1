@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+#contenitore-immagine{
+  margin: 0 auto;
+  width: 150px;
+
+}
+
+img{
+  width: 100%;
+}
+
+
+
+.stanza{
+  max-width: 700px;
+  height: 200px;
+  margin: 30px auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#on-off{
+  height: 50px;
+  margin: auto;
+  padding: 0 20px;
+  
+}
+#on-off:hover{
+  cursor: pointer;
+}
