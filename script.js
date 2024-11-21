@@ -11,6 +11,8 @@ interruttore.addEventListener('click', () =>{
   lampadinaaccesa.classList.toggle('show')
   if (lampadinaaccesa.classList.contains('show')){
     interruttore.innerHTML = acceso
+  } else {
+    interruttore.innerHTML = spento
   }
 
 })

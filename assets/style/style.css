@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* utilities */
 
 .hide{
   display: none;
@@ -13,9 +13,11 @@
   display: block;
 }
 
+
+
 #contenitore-immagine{
   margin: 0 auto;
-  width: 150px;
+  width: 200px;
 
 }
 
@@ -27,18 +29,22 @@ img{
 
 .stanza{
   max-width: 700px;
-  height: 200px;
+  height: 300px;
   margin: 30px auto;
-  border: 1px solid black;
+  border: 3px solid blue;
   display: flex;
   justify-content: space-around;
+  border-radius: 20px;
+  background-color: lightblue;
 
 }
 
 #on-off{
-  height: 50px;
+  height: 60px;
   margin: auto;
   padding: 0 20px;
+  font-size: 1.5rem;
+  border: 3px solid;
   
 }
 #on-off:hover{
